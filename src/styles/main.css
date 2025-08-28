@@ -1,0 +1,47 @@
+/* 기본 리셋 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 바디 기본 스타일 */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* a 태그 기본 스타일 */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 버튼 기본 스타일 */
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  background-color: #ff385c;
+  color: white;
+  border-radius: 4px;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e03150;
+}
+
+/* 공통 컨테이너 스타일 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
